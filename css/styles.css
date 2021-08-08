@@ -74,7 +74,6 @@ body {
   text-decoration: none;
 }
 
-
 .logo {
   display: flex;
   justify-content: flex-start;
@@ -263,15 +262,15 @@ tfoot {
 
 table .footer-pagination {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
 }
 
 table .pagination-arrows {
-  margin: 0 5px;
+  margin: 0;
 }
 
 table .pagination-arrows img {
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 table .footer-per-page-paginator,
@@ -342,6 +341,14 @@ table .result-per-page {
   .article-item-image img {
     max-width: max-content;
     height: auto;
+  }
+
+  table .pagination-arrows img {
+    margin-left: 10px;
+  }
+
+  table .pagination-arrows {
+    margin: 0 5px;
   }
 }
 
