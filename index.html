@@ -10,13 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="wrapper">
       <header class="main-head">
         <div class="logo">
-          <div><img src="images/logo.svg" alt="logo" /></div>
+          <div><img height="30" width="33" src="images/logo.svg" alt="logo" /></div>
 
           <div class="text-primary text-large-weight text-small">
             Apartment Owners Association
@@ -31,58 +32,58 @@
             <span></span>
 
             <ul class="menu">
-              <li>
-                <a class="text-primary text-medium-weight text-small" href="#">
+              <li class="main-nav-menu-item">
+                <a href="#">
                   About us
                 </a>
               </li>
-              <li>
-                <a class="text-primary text-medium-weight text-small" href="#">
+              <li class="main-nav-menu-item">
+                <a href="#">
                   Membership
                   <img src="images/bottom-arrow.svg" alt="arrow down" />
                 </a>
               </li>
-              <li>
-                <a class="text-primary text-medium-weight text-small" href="#">
+              <li class="main-nav-menu-item">
+                <a href="#">
                   Services
                 </a>
               </li>
-              <li>
-                <a class="text-primary text-medium-weight text-small" href="#">
+              <li class="main-nav-menu-item">
+                <a href="#">
                   News and events
                 </a>
               </li>
-              <li>
-                <a class="text-primary text-medium-weight text-small" href="#">
+              <li class="main-nav-menu-item">
+                <a href="#">
                   Contact
                 </a>
               </li>
             </ul>
           </div>
           <ul class="lage-menu">
-            <li>
-              <a class="text-primary text-medium-weight text-small" href="#">
+            <li class="main-nav-menu-item">
+              <a href="#">
                 About us
               </a>
             </li>
-            <li>
-              <a class="text-primary text-medium-weight text-small" href="#">
+            <li class="main-nav-menu-item">
+              <a href="#">
                 Membership
                 <img src="images/bottom-arrow.svg" alt="arrow down" />
               </a>
             </li>
-            <li>
-              <a class="text-primary text-medium-weight text-small" href="#">
+            <li class="main-nav-menu-item">
+              <a href="#">
                 Services
               </a>
             </li>
-            <li>
-              <a class="text-primary text-medium-weight text-small" href="#">
+            <li class="main-nav-menu-item">
+              <a href="#">
                 News and events
               </a>
             </li>
-            <li>
-              <a class="text-primary text-medium-weight text-small" href="#">
+            <li class="main-nav-menu-item">
+              <a href="#">
                 Contact
               </a>
             </li>
@@ -124,7 +125,7 @@
                 <button class="button button-secondary">Try it</button>
               </div>
             </article>
-            <article class="article-item">
+            <article class="article-item article-item-reversed">
               <div class="article-item-image">
                 <img src="images/2.png" alt="article2" />
               </div>
@@ -168,11 +169,13 @@
             </article>
           </div>
           <div>
-            <h2 class="text-primary">
-              Our agents
-            </h2>
+            <div class="agents-title">
+              <h2 class="text-primary">
+                Our agents
+              </h2>
+            </div>
             <div class="table-wrapper">
-              <table>
+              <table class="tm-data-table">
                 <thead>
                   <tr>
                     <th>Navn</th>
